@@ -1,0 +1,15 @@
+
+
+******************CONCLUSIONES****************
+
+1. Algunos datos se incluyen dentro del código (hardcoding), con el fin de hacer rápida y simple la prueba cumpliento con lo solicitado.
+2. Se implementa en lo mayor posible buenas prácticas de programación.
+3. Se cumple con la automatización de la prueba E2E acorde a lo solicitado.
+4. Se valida que la prueba E2E termine hasta el mensaje “THANK YOU FOR YOUR ORDER”
+5. Se usa POM como patrón de diseño, por lo tanto cada modulo de la página web a probar se toma como una clase.
+6. Se hace uso de varios frameworks a parte de Selenium como JUniy y TestNG
+7. Hay constantes actualizaciones por parte del framework de selenium como del navegador,
+    si error=403 es mostrado en consola, tener en cuenta la versión adecuada del controlador (ver el archivo README.md)
+8. Se usa ExplicitWait para evitar que la ejecución se detenga al no encontrar un elemento en específico.
+9. En su mayoría se usa xpath como localizador de los elementos con el fin de hacer rápida y simple la prueba
+10. Se implementan comentarios para ayudar con el entendimiento del código
